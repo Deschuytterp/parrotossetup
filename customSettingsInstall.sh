@@ -62,7 +62,10 @@ git config --global user.email "pieter.deschuytter@telenet.be"
 
 # Any other custom commands
 # ...
-echo "install additional stuff for locate"
+echo "#############  install additional stuff for locate"
 sudo apt install mlocate
+echo "#############  updating database for locate"
+sudo updatedb
+
 
 echo "Setup complete!"
