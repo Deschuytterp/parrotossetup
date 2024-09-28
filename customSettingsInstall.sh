@@ -12,6 +12,7 @@ PACKAGES=(
   "tmux"
   "build-essential"
   "pipx"
+  "neo4j"
   "crackmapexec"
   # Add more packages as needed
 )
