@@ -2,6 +2,7 @@
 
 # Update and upgrade the system
 sudo apt-update && sudo apt-upgrade -y
+sudo apt install neo4j
 
 # Install your preferred packages
 PACKAGES=(
@@ -12,7 +13,6 @@ PACKAGES=(
   "tmux"
   "build-essential"
   "pipx"
-  "neo4j"
   "crackmapexec"
   # Add more packages as needed
 )
