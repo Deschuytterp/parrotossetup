@@ -17,6 +17,8 @@ PACKAGES=(
 
 sudo apt install -y "${PACKAGES[@]}"
 python3 -m pipx install impacket
+pipx ensurepath
+pipx completions
 
 sudo apt-autoremove
 
