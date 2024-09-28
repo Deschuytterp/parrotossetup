@@ -11,6 +11,7 @@ PACKAGES=(
   "htop"
   "tmux"
   "build-essential"
+  "pipx"
   # Add more packages as needed
 )
 
