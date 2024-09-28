@@ -41,5 +41,4 @@ git config --global user.email "pieter.deschuytter@telenet.be"
 
 # Any other custom commands
 # ...
-
 echo "Setup complete!"
