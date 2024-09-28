@@ -16,6 +16,8 @@ PACKAGES=(
 
 sudo apt install -y "${PACKAGES[@]}"
 
+sudo apt-autoremove
+
 # Copy configuration files
 #cp /path/to/your/dotfiles/.bashrc ~/.bashrc
 #"cp /path/to/your/dotfiles/.vimrc ~/.vimrc
