@@ -1,11 +1,15 @@
 #!/bin/bash
 
+echo "########### general update of the system"
+
 # Update and upgrade the system
 sudo apt-update && sudo apt-upgrade -y
 
+echo "########### installing installation dependencies"
 #needed for further installation of crackmapexec
 sudo apt install neo4j
 
+echo "########### installing additional packages"
 # Install your preferred packages
 PACKAGES=(
   "vim"
@@ -21,10 +25,13 @@ PACKAGES=(
 
 sudo apt install -y "${PACKAGES[@]}"
 
+echo "########### installing impacket"
 python3 -m pipx install impacket
 pipx ensurepath
 pipx completions
 
+
+echo "########### removing obsolete stuff"
 sudo apt autoremove
 
 # Copy configuration files
