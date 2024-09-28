@@ -21,6 +21,8 @@ PACKAGES=(
   "build-essential"
   "pipx"
   "crackmapexec"
+  "evil-winrm"
+  "BloodHound"
   # Add more packages as needed
 )
 
