@@ -8,6 +8,7 @@ sudo apt update && sudo apt upgrade -y
 echo "########### installing installation dependencies"
 #needed for further installation of crackmapexec
 sudo apt install neo4j
+sudo apt install python3-neo4j
 
 echo "########### installing additional packages"
 # Install your preferred packages
@@ -59,4 +60,7 @@ git config --global user.email "pieter.deschuytter@telenet.be"
 
 # Any other custom commands
 # ...
+echo "install additional stuff for locate"
+sudo apt install mlocate
+
 echo "Setup complete!"
