@@ -3,7 +3,7 @@
 echo "########### general update of the system"
 
 # Update and upgrade the system
-sudo apt-update && sudo apt-upgrade -y
+sudo apt update && sudo apt upgrade -y
 
 echo "########### installing installation dependencies"
 #needed for further installation of crackmapexec
