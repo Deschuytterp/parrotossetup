@@ -20,7 +20,7 @@ python3 -m pipx install impacket
 pipx ensurepath
 pipx completions
 
-sudo apt-autoremove
+sudo apt autoremove
 
 # Copy configuration files
 #cp /path/to/your/dotfiles/.bashrc ~/.bashrc
