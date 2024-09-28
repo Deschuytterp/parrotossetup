@@ -2,6 +2,8 @@
 
 # Update and upgrade the system
 sudo apt-update && sudo apt-upgrade -y
+
+#needed for further installation of crackmapexec
 sudo apt install neo4j
 
 # Install your preferred packages
@@ -18,6 +20,7 @@ PACKAGES=(
 )
 
 sudo apt install -y "${PACKAGES[@]}"
+
 python3 -m pipx install impacket
 pipx ensurepath
 pipx completions
