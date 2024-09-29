@@ -1,14 +1,15 @@
 #!/bin/bash
 
-echo "########### general update of the system"
 
+echo "########### general update of the system"
 # Update and upgrade the system
 sudo apt update && sudo apt upgrade -y
 
 echo "########### installing installation dependencies"
 #needed for further installation of crackmapexec
-sudo apt install neo4j
-sudo apt install python3-neo4j
+#sudo apt install neo4j
+#sudo apt install python3-neo4j
+
 
 echo "########### installing additional packages"
 # Install your preferred packages
@@ -20,7 +21,7 @@ PACKAGES=(
   "tmux"
   "build-essential"
   "pipx"
-  "crackmapexec"
+  #"crackmapexec"
   "evil-winrm"
   "BloodHound"
   # Add more packages as needed
@@ -33,6 +34,9 @@ python3 -m pipx install impacket
 pipx ensurepath
 pipx completions
 
+echo "########### installing CherryTree"
+wget https://www.giuspen.net/software/cherrytree_1.1.4-2~Debian12_amd64.deb
+sudo apt install ./cherrytree_1.1.4-2~Debian12_amd64.deb
 
 echo "########### removing obsolete stuff"
 sudo apt autoremove
