@@ -17,7 +17,7 @@ echo "########### installing installation dependencies"
 #needed for further installation of crackmapexec
 #sudo apt install neo4j
 #sudo apt install python3-neo4j
-
+sudo apt install pipx
 
 echo "########### installing additional packages"
 # Install your preferred packages
@@ -28,7 +28,7 @@ PACKAGES=(
   "htop"
   "tmux"
   "build-essential"
-  "pipx"
+  #"pipx"
   #"crackmapexec"
   "evil-winrm"
   "BloodHound"
