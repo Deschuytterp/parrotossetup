@@ -1,5 +1,13 @@
 #!/bin/bash
-
+echo "########### Change system settings"
+sudo bash -c 'cat <<EOF > /etc/default/keyboard
+XKBMODEL="pc105"
+XKBLAYOUT="be"
+XKBVARIANT=""
+XKBOPTIONS=""
+BACKSPACE="guess"
+EOF'
+setxkbmap -layout be
 
 echo "########### general update of the system"
 # Update and upgrade the system
