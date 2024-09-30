@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cherrytree>
-  <node unique_id="5" master_id="0" name="FTP  (21)" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="33" is_bold="0" foreground="" ts_creation="1727720100" ts_lastsave="1727720714">
+  <node unique_id="5" master_id="0" name="FTP  (21)" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="33" is_bold="0" foreground="" ts_creation="1727720100" ts_lastsave="1727721600">
     <rich_text>Cheatsheet:
 
 </rich_text>
@@ -12,6 +12,10 @@
       <row>
         <cell></cell>
         <cell></cell>
+      </row>
+      <row>
+        <cell>nc -nv 10.129.40.68 21</cell>
+        <cell>connect to the FTP</cell>
       </row>
       <row>
         <cell>Command</cell>

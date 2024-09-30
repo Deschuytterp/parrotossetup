@@ -38,6 +38,10 @@ PACKAGES=(
 
 sudo apt install -y "${PACKAGES[@]}"
 
+echo "########### installing Extra tools"
+echo "########### installing ssh-audit"
+git clone https://github.com/jtesta/ssh-audit.git 
+
 echo "########### installing impacket"
 python3 -m pipx install impacket
 pipx ensurepath
