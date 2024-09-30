@@ -31,6 +31,7 @@ PACKAGES=(
   #"pipx"
   #"crackmapexec"
   "evil-winrm"
+  "netcat-openbsd"
   "BloodHound"
   # Add more packages as needed
 )
