@@ -33,6 +33,7 @@ PACKAGES=(
   "evil-winrm"
   "netcat-openbsd"
   "BloodHound"
+  "seclists"
   # Add more packages as needed
 )
 

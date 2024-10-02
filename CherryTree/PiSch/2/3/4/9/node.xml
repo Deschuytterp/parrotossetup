@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cherrytree>
-  <node unique_id="9" master_id="0" name="SSH (22)" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="33" is_bold="0" foreground="" ts_creation="1727721600" ts_lastsave="1727722496">
+  <node unique_id="9" master_id="0" name="SSH (22)" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="33" is_bold="0" foreground="" ts_creation="1727721600" ts_lastsave="1727888299">
     <rich_text scale="h2">Cheatsheet:</rich_text>
     <rich_text>
 

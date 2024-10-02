@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cherrytree>
-  <node unique_id="9" master_id="0" name="SSH (22)" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="33" is_bold="0" foreground="" ts_creation="1727721600" ts_lastsave="1727722404">
+  <node unique_id="9" master_id="0" name="SSH (22)" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="33" is_bold="0" foreground="" ts_creation="1727721600" ts_lastsave="1727722430">
     <rich_text scale="h2">Cheatsheet:</rich_text>
     <rich_text>
 
@@ -30,8 +30,8 @@
         <cell>audit the ssh, make sure ssh-audit is installed.</cell>
       </row>
       <row>
-        <cell></cell>
-        <cell></cell>
+        <cell>ssh -v cry0l1t3@10.129.14.132</cell>
+        <cell>try to connect to ssh</cell>
       </row>
       <row>
         <cell></cell>
