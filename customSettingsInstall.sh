@@ -34,6 +34,7 @@ PACKAGES=(
   "netcat-openbsd"
   "BloodHound"
   "seclists"
+  "ftp"
   # Add more packages as needed
 )
 
